@@ -3,9 +3,9 @@ $(document).ready(function(){
         
         if($(this).hasClass('open')){
             $(this).removeClass('open');
-            $(this).find('.accordion-content').slideup();
+            $(this).find('.accordion-content').slideUp();
         }else{
-            $(this).addclass('open');
+            $(this).addClass('open');
             $(this).find('.accordion-content').slideDown();
         }
        
